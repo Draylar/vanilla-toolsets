@@ -9,6 +9,6 @@ public class HoeBase extends HoeItem
 {
     protected HoeBase(ToolMaterial toolMaterial_1)
     {
-        super(toolMaterial_1, 1, new Item.Settings().itemGroup(ItemGroup.TOOLS));
+        super(toolMaterial_1, -3.0F, new Item.Settings().itemGroup(ItemGroup.TOOLS));
     }
 }
