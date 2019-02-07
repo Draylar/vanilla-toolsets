@@ -1,6 +1,7 @@
 package com.github.draylar.vanilla_armor_plus;
 
 import com.github.draylar.vanilla_armor_plus.armor.emerald.*;
+import com.github.draylar.vanilla_armor_plus.armor.lapis.*;
 import com.github.draylar.vanilla_armor_plus.armor.obsidian.*;
 import net.minecraft.util.registry.Registry;
 
@@ -24,5 +25,13 @@ public class Items
         Registry.register(Registry.ITEM, ArmorPlus.MOD_ID + ":obsidian_shovel", new ShovelObsidian());
         Registry.register(Registry.ITEM, ArmorPlus.MOD_ID + ":obsidian_hoe", new HoeObsidian());
         Registry.register(Registry.ITEM, ArmorPlus.MOD_ID + ":obsidian_sword", new SwordObsidian());
+
+        // lapis set
+        ArmorLapis.registerArmor();
+        Registry.register(Registry.ITEM, ArmorPlus.MOD_ID + ":lapis_pickaxe", new PickaxeLapis());
+        Registry.register(Registry.ITEM, ArmorPlus.MOD_ID + ":lapis_axe", new AxeLapis());
+        Registry.register(Registry.ITEM, ArmorPlus.MOD_ID + ":lapis_shovel", new ShovelLapis());
+        Registry.register(Registry.ITEM, ArmorPlus.MOD_ID + ":lapis_hoe", new HoeLapis());
+        Registry.register(Registry.ITEM, ArmorPlus.MOD_ID + ":lapis_sword", new SwordLapis());
     }
 }
