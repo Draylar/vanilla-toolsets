@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "vanilla-armor-plus:item/emerald_sword"
+    "layer0": "vanilla-armor-plus:item/obsidian_sword"
   }
 }
