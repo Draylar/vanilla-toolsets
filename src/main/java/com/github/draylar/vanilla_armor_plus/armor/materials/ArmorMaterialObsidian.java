@@ -1,40 +1,46 @@
 package com.github.draylar.vanilla_armor_plus.armor.materials;
 
+import net.minecraft.block.Blocks;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorMaterial;
+import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.sound.SoundEvent;
+import net.minecraft.sound.SoundEvents;
 
 public class ArmorMaterialObsidian implements ArmorMaterial
 {
+    private static final int[] BASE_DURABILITY = new int[]{13, 15, 16, 11};
+    private static final int[] PROTECTION_AMOUNTS = new int[]{3, 5, 5, 3};
+
     @Override
     public int getDurability(EquipmentSlot equipmentSlot)
     {
-        return 0;
+        return BASE_DURABILITY[equipmentSlot.getEntitySlotId()] * 50;
     }
 
     @Override
     public int getProtectionAmount(EquipmentSlot equipmentSlot)
     {
-        return 0;
+        return PROTECTION_AMOUNTS[equipmentSlot.getEntitySlotId()];
     }
 
     @Override
     public int getEnchantability()
     {
-        return 0;
+        return 5;
     }
 
     @Override
     public SoundEvent getEquipSound()
     {
-        return null;
+        return SoundEvents.BLOCK_METAL_BREAK;
     }
 
     @Override
     public Ingredient getRepairIngredient()
     {
-        return null;
+        return Ingredient.ofItems(Blocks.OBSIDIAN);
     }
 
     @Override
@@ -46,6 +52,6 @@ public class ArmorMaterialObsidian implements ArmorMaterial
     @Override
     public float getToughness()
     {
-        return 0;
+        return 2;
     }
 }
