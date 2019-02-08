@@ -1,17 +1,17 @@
 {
-  "id": "vanilla-armor-plus",
-  "name": "Vanilla Armor+",
-  "description": "Adds Emerald & Obsidian armor for 1.14.",
+  "id": "vanilla-toolsets",
+  "name": "Vanilla Toolsets",
+  "description": "Adds Emerald, Lapis, and Obsidian tools/armor for 1.14.",
   "version": "1.0.0",
   "side": "universal",
   "initializers": [
-    "com.github.draylar.vanilla_armor_plus.ArmorPlus"
+    "com.github.draylar.vanilla_toolsets.VanillaToolsets"
   ],
   "requires": {
     "fabric": "*"
   },
   "mixins": {
-    "client": "modid.client.json",
-    "common": "modid.common.json"
+    "client": "vanilla-toolsets.client.json",
+    "common": "vanilla-toolsets.common.json"
   }
 }
