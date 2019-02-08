@@ -1,0 +1,39 @@
+{
+  // Emerald stuff
+  "item.vanilla-toolsets.emerald_helmet": "Emerald Helmet",
+  "item.vanilla-toolsets.emerald_chestplate": "Emerald Chestplate",
+  "item.vanilla-toolsets.emerald_leggings": "Emerald Leggings",
+  "item.vanilla-toolsets.emerald_boots": "Emerald Boots",
+
+  "item.vanilla-toolsets.emerald_pickaxe": "Emerald Pickaxe",
+  "item.vanilla-toolsets.emerald_axe": "Emerald Axe",
+  "item.vanilla-toolsets.emerald_shovel": "Emerald Shovel",
+  "item.vanilla-toolsets.emerald_hoe": "Emerald Hoe",
+  "item.vanilla-toolsets.emerald_sword": "Emerald Sword",
+
+  
+  // Obsidian stuff
+  "item.vanilla-toolsets.obsidian_helmet": "Obsidian Helmet",
+  "item.vanilla-toolsets.obsidian_chestplate": "Obsidian Chestplate",
+  "item.vanilla-toolsets.obsidian_leggings": "Obsidian Leggings",
+  "item.vanilla-toolsets.obsidian_boots": "Obsidian Boots",
+
+  "item.vanilla-toolsets.obsidian_pickaxe": "Obsidian Pickaxe",
+  "item.vanilla-toolsets.obsidian_axe": "Obsidian Axe",
+  "item.vanilla-toolsets.obsidian_shovel": "Obsidian Shovel",
+  "item.vanilla-toolsets.obsidian_hoe": "Obsidian Hoe",
+  "item.vanilla-toolsets.obsidian_sword": "Obsidian Sword",
+
+  
+  // Lapis stuff
+  "item.vanilla-toolsets.lapis_helmet": "Lapis Helmet",
+  "item.vanilla-toolsets.lapis_chestplate": "Lapis Chestplate",
+  "item.vanilla-toolsets.lapis_leggings": "Lapis Leggings",
+  "item.vanilla-toolsets.lapis_boots": "Lapis Boots",
+
+  "item.vanilla-toolsets.lapis_pickaxe": "Lapis Pickaxe",
+  "item.vanilla-toolsets.lapis_axe": "Lapis Axe",
+  "item.vanilla-toolsets.lapis_shovel": "Lapis Shovel",
+  "item.vanilla-toolsets.lapis_hoe": "Lapis Hoe",
+  "item.vanilla-toolsets.lapis_sword": "Lapis Sword"
+}
