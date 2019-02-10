@@ -1,0 +1,39 @@
+{
+  // Emerald stuff
+  "item.vanilla-toolsets.emerald_helmet": "Casque en émeraude",
+  "item.vanilla-toolsets.emerald_chestplate": "Plastron en émeraude",
+  "item.vanilla-toolsets.emerald_leggings": "Pantalon en émeraude",
+  "item.vanilla-toolsets.emerald_boots": "Bottes en émeraude",
+
+  "item.vanilla-toolsets.emerald_pickaxe": "Pioche en émeraude",
+  "item.vanilla-toolsets.emerald_axe": "Hache en émeraude",
+  "item.vanilla-toolsets.emerald_shovel": "Pelle en émeraude",
+  "item.vanilla-toolsets.emerald_hoe": "Houe en émeraude",
+  "item.vanilla-toolsets.emerald_sword": "Épée en émeraude",
+
+  
+  // Obsidian stuff
+  "item.vanilla-toolsets.obsidian_helmet": "Casque en obsidienne",
+  "item.vanilla-toolsets.obsidian_chestplate": "Plastron en obsidienne",
+  "item.vanilla-toolsets.obsidian_leggings": "Pantalon en obsidienne",
+  "item.vanilla-toolsets.obsidian_boots": "Bottes en obsidienne",
+
+  "item.vanilla-toolsets.obsidian_pickaxe": "Pioche en obsidienne",
+  "item.vanilla-toolsets.obsidian_axe": "Hache en obsidienne",
+  "item.vanilla-toolsets.obsidian_shovel": "Pelle en obsidienne",
+  "item.vanilla-toolsets.obsidian_hoe": "Houe en obsidienne",
+  "item.vanilla-toolsets.obsidian_sword": "Épée en obsidienne",
+
+  
+  // Lapis stuff
+  "item.vanilla-toolsets.lapis_helmet": "Casque en lapis",
+  "item.vanilla-toolsets.lapis_chestplate": "Plastron en lapis",
+  "item.vanilla-toolsets.lapis_leggings": "Pantalon en lapis",
+  "item.vanilla-toolsets.lapis_boots": "Bottes en lapis",
+
+  "item.vanilla-toolsets.lapis_pickaxe": "Pioche en lapis",
+  "item.vanilla-toolsets.lapis_axe": "Hache en lapis",
+  "item.vanilla-toolsets.lapis_shovel": "Pelle en lapis",
+  "item.vanilla-toolsets.lapis_hoe": "Houe en lapis",
+  "item.vanilla-toolsets.lapis_sword": "Épée en lapis"
+}
