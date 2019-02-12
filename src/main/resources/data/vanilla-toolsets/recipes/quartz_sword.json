@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "e",
+    "e",
+    "s"
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "e": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "result": {
+    "item": "vanilla-toolsets:quartz_sword"
+  }
+}
