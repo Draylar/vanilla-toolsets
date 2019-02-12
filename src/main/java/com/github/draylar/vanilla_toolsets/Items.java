@@ -1,8 +1,9 @@
 package com.github.draylar.vanilla_toolsets;
 
-import com.github.draylar.vanilla_toolsets.armor.emerald.*;
-import com.github.draylar.vanilla_toolsets.armor.lapis.*;
-import com.github.draylar.vanilla_toolsets.armor.obsidian.*;
+import com.github.draylar.vanilla_toolsets.tools.emerald.*;
+import com.github.draylar.vanilla_toolsets.tools.lapis.*;
+import com.github.draylar.vanilla_toolsets.tools.obsidian.*;
+import com.github.draylar.vanilla_toolsets.tools.quartz.*;
 import net.minecraft.util.registry.Registry;
 
 public class Items
@@ -33,5 +34,13 @@ public class Items
         Registry.register(Registry.ITEM, VanillaToolsets.MOD_ID + ":lapis_shovel", new ShovelLapis());
         Registry.register(Registry.ITEM, VanillaToolsets.MOD_ID + ":lapis_hoe", new HoeLapis());
         Registry.register(Registry.ITEM, VanillaToolsets.MOD_ID + ":lapis_sword", new SwordLapis());
+
+        // quartz set
+        ArmorQuartz.registerArmor();
+        Registry.register(Registry.ITEM, VanillaToolsets.MOD_ID + ":quartz_pickaxe", new PickaxeQuartz());
+        Registry.register(Registry.ITEM, VanillaToolsets.MOD_ID + ":quartz_axe", new AxeQuartz());
+        Registry.register(Registry.ITEM, VanillaToolsets.MOD_ID + ":quartz_shovel", new ShovelQuartz());
+        Registry.register(Registry.ITEM, VanillaToolsets.MOD_ID + ":quartz_hoe", new HoeQuartz());
+        Registry.register(Registry.ITEM, VanillaToolsets.MOD_ID + ":quartz_sword", new SwordQuartz());
     }
 }

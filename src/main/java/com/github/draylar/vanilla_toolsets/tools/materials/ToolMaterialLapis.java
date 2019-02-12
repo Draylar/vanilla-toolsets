@@ -1,0 +1,44 @@
+package com.github.draylar.vanilla_toolsets.tools.materials;
+
+import net.minecraft.block.Blocks;
+import net.minecraft.item.ToolMaterial;
+import net.minecraft.recipe.Ingredient;
+
+public class ToolMaterialLapis implements ToolMaterial
+{
+    @Override
+    public int getDurability()
+    {
+        return 220;
+    }
+
+    @Override
+    public float getBlockBreakingSpeed()
+    {
+        return 6;
+    }
+
+    @Override
+    public float getAttackDamage()
+    {
+        return 3.5f;
+    }
+
+    @Override
+    public int getMiningLevel()
+    {
+        return 2;
+    }
+
+    @Override
+    public int getEnchantability()
+    {
+        return 10;
+    }
+
+    @Override
+    public Ingredient getRepairIngredient()
+    {
+        return Ingredient.ofItems(Blocks.LAPIS_BLOCK);
+    }
+}

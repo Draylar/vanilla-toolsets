@@ -35,5 +35,19 @@
   "item.vanilla-toolsets.lapis_axe": "Lapis Axe",
   "item.vanilla-toolsets.lapis_shovel": "Lapis Shovel",
   "item.vanilla-toolsets.lapis_hoe": "Lapis Hoe",
-  "item.vanilla-toolsets.lapis_sword": "Lapis Sword"
+  "item.vanilla-toolsets.lapis_sword": "Lapis Sword",
+
+
+
+  // Quartz stuff
+  "item.vanilla-toolsets.quartz_helmet": "Quartz Helmet",
+  "item.vanilla-toolsets.quartz_chestplate": "Quartz Chestplate",
+  "item.vanilla-toolsets.quartz_leggings": "Quartz Leggings",
+  "item.vanilla-toolsets.quartz_boots": "Quartz Boots",
+
+  "item.vanilla-toolsets.quartz_pickaxe": "Quartz Pickaxe",
+  "item.vanilla-toolsets.quartz_axe": "Quartz Axe",
+  "item.vanilla-toolsets.quartz_shovel": "Quartz Shovel",
+  "item.vanilla-toolsets.quartz_hoe": "Quartz Hoe",
+  "item.vanilla-toolsets.quartz_sword": "Quartz Sword"
 }

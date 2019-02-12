@@ -1,6 +1,6 @@
 package com.github.draylar.vanilla_toolsets;
 
-import com.github.draylar.vanilla_toolsets.armor.materials.*;
+import com.github.draylar.vanilla_toolsets.tools.materials.*;
 import net.fabricmc.api.ModInitializer;
 
 public class VanillaToolsets implements ModInitializer
@@ -15,6 +15,9 @@ public class VanillaToolsets implements ModInitializer
 
 	public static final ArmorMaterialLapis armorMaterialLapis = new ArmorMaterialLapis();
 	public static final ToolMaterialLapis toolMaterialLapis = new ToolMaterialLapis();
+
+	public static final ArmorMaterialQuartz armorMaterialQuartz = new ArmorMaterialQuartz();
+	public static final ToolMaterialQuartz toolMaterialQuartz = new ToolMaterialQuartz();
 
 	@Override
 	public void onInitialize()

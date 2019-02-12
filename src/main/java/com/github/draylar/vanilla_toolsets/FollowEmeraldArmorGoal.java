@@ -1,6 +1,6 @@
 package com.github.draylar.vanilla_toolsets;
 
-import com.github.draylar.vanilla_toolsets.armor.emerald.ArmorEmerald;
+import com.github.draylar.vanilla_toolsets.tools.emerald.ArmorEmerald;
 import net.minecraft.entity.ai.goal.FollowTargetGoal;
 import net.minecraft.entity.mob.MobEntityWithAi;
 import net.minecraft.entity.player.PlayerEntity;
