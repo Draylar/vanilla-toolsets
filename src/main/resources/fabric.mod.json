@@ -1,17 +1,32 @@
 {
+  "schemaVersion": 1,
   "id": "vanilla-toolsets",
+  "version": "1.1.1",
+
   "name": "Vanilla Toolsets",
-  "description": "Adds Emerald, Lapis, and Obsidian tools/armor for 1.14.",
-  "version": "1.0.0",
-  "side": "universal",
-  "initializers": [
-    "com.github.draylar.vanilla_toolsets.VanillaToolsets"
+  "description": "Adds extra tools/armor for 1.14.",
+  "authors": [
+    "Draylar"
   ],
+
+  "license": "GPLv3",
+  "icon": "assets/vanilla-toolsets/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.draylar.vanilla_toolsets.VanillaToolsets"
+    ]
+  },
+  "mixins": [
+
+  ],
+
   "requires": {
+    "fabricloader": ">=0.4.0",
     "fabric": "*"
   },
-  "mixins": {
-    "client": "vanilla-toolsets.client.json",
-    "common": "vanilla-toolsets.common.json"
+  "suggests": {
+    "flamingo": "*"
   }
 }
