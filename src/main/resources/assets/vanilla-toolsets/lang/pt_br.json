@@ -1,0 +1,53 @@
+{
+  // Emerald stuff
+  "item.vanilla-toolsets.emerald_helmet": "Capacete de esmeranda",
+  "item.vanilla-toolsets.emerald_chestplate": "Peitoral de esmeralda",
+  "item.vanilla-toolsets.emerald_leggings": "Calças de esmeranda",
+  "item.vanilla-toolsets.emerald_boots": "Botas de esmeralda",
+
+  "item.vanilla-toolsets.emerald_pickaxe": "Picareta de esmeranda",
+  "item.vanilla-toolsets.emerald_axe": "Machato de esmeralda",
+  "item.vanilla-toolsets.emerald_shovel": "Pá de esmeranda",
+  "item.vanilla-toolsets.emerald_hoe": "Enxanda de esmeralda",
+  "item.vanilla-toolsets.emerald_sword": "Espada de esmeranda",
+
+  
+  // Obsidian stuff
+  "item.vanilla-toolsets.obsidian_helmet": "Capacete de obsidiana",
+  "item.vanilla-toolsets.obsidian_chestplate": "Peitoral de obsidiana",
+  "item.vanilla-toolsets.obsidian_leggings": "Calças de obsidiana",
+  "item.vanilla-toolsets.obsidian_boots": "Botas de obsidiana",
+
+  "item.vanilla-toolsets.obsidian_pickaxe": "Picareta de obsidiana",
+  "item.vanilla-toolsets.obsidian_axe": "Machato de obsidiana",
+  "item.vanilla-toolsets.obsidian_shovel": "Pá de obsidiana",
+  "item.vanilla-toolsets.obsidian_hoe": "Enxanda de obsidiana",
+  "item.vanilla-toolsets.obsidian_sword": "Espada de obsidiana",
+
+  
+  // Lapis stuff
+  "item.vanilla-toolsets.Lapis_helmet": "Capacete de lápis",
+  "item.vanilla-toolsets.Lapis_chestplate": "Peitoral de lápis",
+  "item.vanilla-toolsets.Lapis_leggings": "Calças de lápis",
+  "item.vanilla-toolsets.Lapis_boots": "Botas de lápis",
+
+  "item.vanilla-toolsets.Lapis_pickaxe": "Picareta de lápis",
+  "item.vanilla-toolsets.Lapis_axe": "Machado de lápis",
+  "item.vanilla-toolsets.Lapis_shovel": "Pá de lápis",
+  "item.vanilla-toolsets.Lapis_hoe": "Enxada de lápis",
+  "item.vanilla-toolsets.Lapis_sword": "Espada de lápis",
+
+
+
+  // Quartz stuff
+  "item.vanilla-toolsets.quartz_helmet": "Capacete de quartzo",
+  "item.vanilla-toolsets.quartz_chestplate": "Peitoral de quartzo",
+  "item.vanilla-toolsets.quartz_leggings": "Calças de quartzo",
+  "item.vanilla-toolsets.quartz_boots": "Botas de quartzo",
+
+  "item.vanilla-toolsets.quartz_pickaxe": "Picareta de quartzo",
+  "item.vanilla-toolsets.quartz_axe": "Machado de quartzo",
+  "item.vanilla-toolsets.quartz_shovel": "Pá de quartzo",
+  "item.vanilla-toolsets.quartz_hoe": "Enxada de quartzo",
+  "item.vanilla-toolsets.quartz_sword": "Espada de quartzo"
+}
