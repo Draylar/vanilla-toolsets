@@ -1,0 +1,53 @@
+{
+  // Emerald stuff
+  "item.vanilla-toolsets.emerald_helmet": "Smaragdhelm",
+  "item.vanilla-toolsets.emerald_chestplate": "Smaragdharnisch",
+  "item.vanilla-toolsets.emerald_leggings": "Smaragdbeinschutz",
+  "item.vanilla-toolsets.emerald_boots": "Smaragdstiefel",
+
+  "item.vanilla-toolsets.emerald_pickaxe": "Smaragdspitzhacke",
+  "item.vanilla-toolsets.emerald_axe": "Smaragdaxt",
+  "item.vanilla-toolsets.emerald_shovel": "Smaragdschaufel",
+  "item.vanilla-toolsets.emerald_hoe": "Smaragdhacke",
+  "item.vanilla-toolsets.emerald_sword": "Smaragdschwert",
+
+  
+  // Obsidian stuff
+  "item.vanilla-toolsets.obsidian_helmet": "Obsidianhelm",
+  "item.vanilla-toolsets.obsidian_chestplate": "Obsidianharnisch",
+  "item.vanilla-toolsets.obsidian_leggings": "Obsidianbeinschutz",
+  "item.vanilla-toolsets.obsidian_boots": "Obsidianstiefel",
+
+  "item.vanilla-toolsets.obsidian_pickaxe": "Obsidianspitzhacke",
+  "item.vanilla-toolsets.obsidian_axe": "Obsidianaxt",
+  "item.vanilla-toolsets.obsidian_shovel": "Obsidianschaufel",
+  "item.vanilla-toolsets.obsidian_hoe": "Obsidianhacke",
+  "item.vanilla-toolsets.obsidian_sword": "Obsidianschwert",
+
+  
+  // Lapis stuff
+  "item.vanilla-toolsets.lapis_helmet": "Lapishelm",
+  "item.vanilla-toolsets.lapis_chestplate": "Lapisharnisch",
+  "item.vanilla-toolsets.lapis_leggings": "Lapisbeinschutz",
+  "item.vanilla-toolsets.lapis_boots": "Lapisstiefel",
+
+  "item.vanilla-toolsets.lapis_pickaxe": "Lapisspitzhacke",
+  "item.vanilla-toolsets.lapis_axe": "Lapisaxt",
+  "item.vanilla-toolsets.lapis_shovel": "Lapisschaufel",
+  "item.vanilla-toolsets.lapis_hoe": "Lapishacke",
+  "item.vanilla-toolsets.lapis_sword": "Lapisschwert",
+
+
+
+  // Quartz stuff
+  "item.vanilla-toolsets.quartz_helmet": "Quartzhelm",
+  "item.vanilla-toolsets.quartz_chestplate": "Quartzharnisch",
+  "item.vanilla-toolsets.quartz_leggings": "Quartzbeinschutz",
+  "item.vanilla-toolsets.quartz_boots": "Quartzstiefel",
+
+  "item.vanilla-toolsets.quartz_pickaxe": "Quartzspitzhacke",
+  "item.vanilla-toolsets.quartz_axe": "Quartzaxt",
+  "item.vanilla-toolsets.quartz_shovel": "Quartzschaufel",
+  "item.vanilla-toolsets.quartz_hoe": "Quartzhacke",
+  "item.vanilla-toolsets.quartz_sword": "Quartzschwert"
+}
