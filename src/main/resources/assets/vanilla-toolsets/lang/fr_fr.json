@@ -35,5 +35,18 @@
   "item.vanilla-toolsets.lapis_axe": "Hache en lapis",
   "item.vanilla-toolsets.lapis_shovel": "Pelle en lapis",
   "item.vanilla-toolsets.lapis_hoe": "Houe en lapis",
-  "item.vanilla-toolsets.lapis_sword": "Épée en lapis"
+  "item.vanilla-toolsets.lapis_sword": "Épée en lapis",
+  
+  
+  // Quartz stuff
+  "item.vanilla-toolsets.quartz_helmet": "Casque en quartz",
+  "item.vanilla-toolsets.quartz_chestplate": "Plastron en quartz",
+  "item.vanilla-toolsets.quartz_leggings": "Pantalon en quartz",
+  "item.vanilla-toolsets.quartz_boots": "Bottes en quartz",
+
+  "item.vanilla-toolsets.quartz_pickaxe": "Pioche en quartz",
+  "item.vanilla-toolsets.quartz_axe": "Hache en quartz",
+  "item.vanilla-toolsets.quartz_shovel": "Pelle en quartz",
+  "item.vanilla-toolsets.quartz_hoe": "Houe en quartz",
+  "item.vanilla-toolsets.quartz_sword": "Épée en quartz"
 }
