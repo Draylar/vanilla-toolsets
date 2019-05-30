@@ -1,0 +1,45 @@
+{
+  "item.vanilla-toolsets.emerald_helmet": "Изумрудный шлем",
+  "item.vanilla-toolsets.emerald_chestplate": "Изумрудная кираса",
+  "item.vanilla-toolsets.emerald_leggings": "Изумрудные поножи",
+  "item.vanilla-toolsets.emerald_boots": "Изумрудные ботинки",
+
+  "item.vanilla-toolsets.emerald_pickaxe": "Изумрудная кирка",
+  "item.vanilla-toolsets.emerald_axe": "Изумрудный топор",
+  "item.vanilla-toolsets.emerald_shovel": "Изумрудная лопата",
+  "item.vanilla-toolsets.emerald_hoe": "Изумрудная мотыга",
+  "item.vanilla-toolsets.emerald_sword": "Изумрудный меч",
+
+  "item.vanilla-toolsets.obsidian_helmet": "Обсидиановый шлем",
+  "item.vanilla-toolsets.obsidian_chestplate": "Обсидиановая кираса",
+  "item.vanilla-toolsets.obsidian_leggings": "Обсидиановые поножи",
+  "item.vanilla-toolsets.obsidian_boots": "Обсидиановые ботинки",
+
+  "item.vanilla-toolsets.obsidian_pickaxe": "Обсидиановая кирка",
+  "item.vanilla-toolsets.obsidian_axe": "Обсидиановый топор",
+  "item.vanilla-toolsets.obsidian_shovel": "Обсидиановая лопата",
+  "item.vanilla-toolsets.obsidian_hoe": "Обсидиановая мотыга",
+  "item.vanilla-toolsets.obsidian_sword": "Обсидиановый меч",
+
+  "item.vanilla-toolsets.lapis_helmet": "Лазуритовый шлем",
+  "item.vanilla-toolsets.lapis_chestplate": "Лазуритовая кираса",
+  "item.vanilla-toolsets.lapis_leggings": "Лазуритовые поножи",
+  "item.vanilla-toolsets.lapis_boots": "Лазуритовые ботинки",
+
+  "item.vanilla-toolsets.lapis_pickaxe": "Лазуритовая кирка",
+  "item.vanilla-toolsets.lapis_axe": "Лазуритовый топор",
+  "item.vanilla-toolsets.lapis_shovel": "Лазуритовая лопата",
+  "item.vanilla-toolsets.lapis_hoe": "Лазуритовая мотыга",
+  "item.vanilla-toolsets.lapis_sword": "Лазуритовый меч",
+
+  "item.vanilla-toolsets.quartz_helmet": "Кварцевый шлем",
+  "item.vanilla-toolsets.quartz_chestplate": "Кварцевая кираса",
+  "item.vanilla-toolsets.quartz_leggings": "Кварцевые поножи",
+  "item.vanilla-toolsets.quartz_boots": "Кварцевые ботинки",
+
+  "item.vanilla-toolsets.quartz_pickaxe": "Кварцевая кирка",
+  "item.vanilla-toolsets.quartz_axe": "Кварцевый топор",
+  "item.vanilla-toolsets.quartz_shovel": "Кварцевая лопата",
+  "item.vanilla-toolsets.quartz_hoe": "Кварцевая мотыга",
+  "item.vanilla-toolsets.quartz_sword": "Кварцевый меч"
+}
