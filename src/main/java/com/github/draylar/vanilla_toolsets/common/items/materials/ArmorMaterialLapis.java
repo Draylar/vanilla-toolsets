@@ -27,7 +27,7 @@ public class ArmorMaterialLapis implements ArmorMaterial
     @Override
     public int getEnchantability()
     {
-        return 10;
+        return 30;
     }
 
     @Override

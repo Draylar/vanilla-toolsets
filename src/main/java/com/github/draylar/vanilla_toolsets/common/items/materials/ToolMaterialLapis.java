@@ -33,7 +33,7 @@ public class ToolMaterialLapis implements ToolMaterial
     @Override
     public int getEnchantability()
     {
-        return 10;
+        return 30;
     }
 
     @Override

@@ -1,5 +1,6 @@
 package com.github.draylar.vanilla_toolsets.common.items.materials;
 
+import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
@@ -38,6 +39,6 @@ public class ToolMaterialQuartz implements ToolMaterial
     @Override
     public Ingredient getRepairIngredient()
     {
-        return null;
+        return Ingredient.ofItems(Items.QUARTZ);
     }
 }
