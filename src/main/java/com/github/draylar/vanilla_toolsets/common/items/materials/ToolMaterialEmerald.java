@@ -15,13 +15,13 @@ public class ToolMaterialEmerald implements ToolMaterial
     @Override
     public float getBlockBreakingSpeed()
     {
-        return 12;
+        return 7;
     }
 
     @Override
     public float getAttackDamage()
     {
-        return 5;
+        return 4;
     }
 
     @Override
@@ -33,7 +33,7 @@ public class ToolMaterialEmerald implements ToolMaterial
     @Override
     public int getEnchantability()
     {
-        return 25;
+        return 15;
     }
 
     @Override
