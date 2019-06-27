@@ -9,6 +9,6 @@ public class AxeBase extends AxeItem
 {
     public AxeBase(ToolMaterial toolMaterial_1)
     {
-        super(toolMaterial_1, 3, -3.0f, new Item.Settings().itemGroup(ItemGroup.TOOLS));
+        super(toolMaterial_1, 3, -3.0f, new Item.Settings().group(ItemGroup.TOOLS));
     }
 }

@@ -16,8 +16,8 @@ public class PickaxeEmerald extends PickaxeBase
     }
 
     @Override
-    public boolean onBlockBroken(ItemStack itemStack_1, World world_1, BlockState blockState_1, BlockPos blockPos_1, LivingEntity livingEntity_1)
+    public boolean postMine(ItemStack itemStack_1, World world_1, BlockState blockState_1, BlockPos blockPos_1, LivingEntity livingEntity_1)
     {
-        return super.onBlockBroken(itemStack_1, world_1, blockState_1, blockPos_1, livingEntity_1);
+        return super.postMine(itemStack_1, world_1, blockState_1, blockPos_1, livingEntity_1);
     }
 }

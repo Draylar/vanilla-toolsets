@@ -13,7 +13,7 @@ public class ToolMaterialQuartz implements ToolMaterial
     }
 
     @Override
-    public float getBlockBreakingSpeed()
+    public float getMiningSpeed()
     {
         return 6;
     }

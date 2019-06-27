@@ -13,7 +13,7 @@ public class ToolMaterialObsidian implements ToolMaterial
     }
 
     @Override
-    public float getBlockBreakingSpeed()
+    public float getMiningSpeed()
     {
         return 5;
     }
