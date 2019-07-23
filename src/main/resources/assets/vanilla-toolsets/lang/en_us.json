@@ -1,5 +1,4 @@
 {
-  // Emerald stuff
   "item.vanilla-toolsets.emerald_helmet": "Emerald Helmet",
   "item.vanilla-toolsets.emerald_chestplate": "Emerald Chestplate",
   "item.vanilla-toolsets.emerald_leggings": "Emerald Leggings",
@@ -11,8 +10,7 @@
   "item.vanilla-toolsets.emerald_hoe": "Emerald Hoe",
   "item.vanilla-toolsets.emerald_sword": "Emerald Sword",
 
-  
-  // Obsidian stuff
+
   "item.vanilla-toolsets.obsidian_helmet": "Obsidian Helmet",
   "item.vanilla-toolsets.obsidian_chestplate": "Obsidian Chestplate",
   "item.vanilla-toolsets.obsidian_leggings": "Obsidian Leggings",
@@ -24,8 +22,7 @@
   "item.vanilla-toolsets.obsidian_hoe": "Obsidian Hoe",
   "item.vanilla-toolsets.obsidian_sword": "Obsidian Sword",
 
-  
-  // Lapis stuff
+
   "item.vanilla-toolsets.lapis_helmet": "Lapis Helmet",
   "item.vanilla-toolsets.lapis_chestplate": "Lapis Chestplate",
   "item.vanilla-toolsets.lapis_leggings": "Lapis Leggings",
@@ -38,8 +35,6 @@
   "item.vanilla-toolsets.lapis_sword": "Lapis Sword",
 
 
-
-  // Quartz stuff
   "item.vanilla-toolsets.quartz_helmet": "Quartz Helmet",
   "item.vanilla-toolsets.quartz_chestplate": "Quartz Chestplate",
   "item.vanilla-toolsets.quartz_leggings": "Quartz Leggings",
@@ -49,5 +44,17 @@
   "item.vanilla-toolsets.quartz_axe": "Quartz Axe",
   "item.vanilla-toolsets.quartz_shovel": "Quartz Shovel",
   "item.vanilla-toolsets.quartz_hoe": "Quartz Hoe",
-  "item.vanilla-toolsets.quartz_sword": "Quartz Sword"
+  "item.vanilla-toolsets.quartz_sword": "Quartz Sword",
+
+
+  "item.vanilla-toolsets.fiery_helmet": "Fiery Helmet",
+  "item.vanilla-toolsets.fiery_chestplate": "Fiery Chestplate",
+  "item.vanilla-toolsets.fiery_leggings": "Fiery Leggings",
+  "item.vanilla-toolsets.fiery_boots": "Fiery Boots",
+
+  "item.vanilla-toolsets.fiery_pickaxe": "Fiery Pickaxe",
+  "item.vanilla-toolsets.fiery_axe": "Fiery Axe",
+  "item.vanilla-toolsets.fiery_shovel": "Fiery Shovel",
+  "item.vanilla-toolsets.fiery_hoe": "Fiery Hoe",
+  "item.vanilla-toolsets.fiery_sword": "Fiery Sword"
 }

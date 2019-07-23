@@ -52,5 +52,16 @@ public class Items
         Registry.register(Registry.ITEM, VanillaToolsets.MOD_ID + ":quartz_chestplate", new ArmorBase(VanillaToolsets.ARMOR_QUARTZ, EquipmentSlot.CHEST));
         Registry.register(Registry.ITEM, VanillaToolsets.MOD_ID + ":quartz_leggings", new ArmorBase(VanillaToolsets.ARMOR_QUARTZ, EquipmentSlot.LEGS));
         Registry.register(Registry.ITEM, VanillaToolsets.MOD_ID + ":quartz_boots", new ArmorBase(VanillaToolsets.ARMOR_QUARTZ, EquipmentSlot.FEET));
+
+        // fiery set
+        Registry.register(Registry.ITEM, VanillaToolsets.MOD_ID + ":fiery_pickaxe", new PickaxeBase(VanillaToolsets.TOOL_FIERY));
+        Registry.register(Registry.ITEM, VanillaToolsets.MOD_ID + ":fiery_axe", new AxeBase(VanillaToolsets.TOOL_FIERY));
+        Registry.register(Registry.ITEM, VanillaToolsets.MOD_ID + ":fiery_shovel", new ShovelBase(VanillaToolsets.TOOL_FIERY));
+        Registry.register(Registry.ITEM, VanillaToolsets.MOD_ID + ":fiery_hoe", new HoeBase(VanillaToolsets.TOOL_FIERY));
+        Registry.register(Registry.ITEM, VanillaToolsets.MOD_ID + ":fiery_sword", new SwordBase(VanillaToolsets.TOOL_FIERY));
+        Registry.register(Registry.ITEM, VanillaToolsets.MOD_ID + ":fiery_helmet", new ArmorBase(VanillaToolsets.ARMOR_FIERY, EquipmentSlot.HEAD));
+        Registry.register(Registry.ITEM, VanillaToolsets.MOD_ID + ":fiery_chestplate", new ArmorBase(VanillaToolsets.ARMOR_FIERY, EquipmentSlot.CHEST));
+        Registry.register(Registry.ITEM, VanillaToolsets.MOD_ID + ":fiery_leggings", new ArmorBase(VanillaToolsets.ARMOR_FIERY, EquipmentSlot.LEGS));
+        Registry.register(Registry.ITEM, VanillaToolsets.MOD_ID + ":fiery_boots", new ArmorBase(VanillaToolsets.ARMOR_FIERY, EquipmentSlot.FEET));
     }
 }

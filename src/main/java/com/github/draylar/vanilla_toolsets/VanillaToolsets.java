@@ -20,6 +20,9 @@ public class VanillaToolsets implements ModInitializer
 	public static final ArmorMaterialQuartz ARMOR_QUARTZ = new ArmorMaterialQuartz();
 	public static final ToolMaterialQuartz TOOL_QUARTZ = new ToolMaterialQuartz();
 
+	public static final ArmorMaterialFiery ARMOR_FIERY = new ArmorMaterialFiery();
+	public static final ToolMaterialFiery TOOL_FIERY = new ToolMaterialFiery();
+
 	@Override
 	public void onInitialize()
 	{
