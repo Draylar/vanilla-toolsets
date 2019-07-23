@@ -8,17 +8,17 @@ public class VanillaToolsets implements ModInitializer
 {
 	public static final String MOD_ID = "vanilla-toolsets";
 
-	public static final ArmorMaterialEmerald armorMaterialEmerald = new ArmorMaterialEmerald();
-	public static final ToolMaterialEmerald toolMaterialEmerald = new ToolMaterialEmerald();
+	public static final ArmorMaterialEmerald ARMOR_EMERALD = new ArmorMaterialEmerald();
+	public static final ToolMaterialEmerald TOOL_EMERALD = new ToolMaterialEmerald();
 
-	public static final ArmorMaterialObsidian armorMaterialObsidian = new ArmorMaterialObsidian();
-	public static final ToolMaterialObsidian toolMaterialObsidian = new ToolMaterialObsidian();
+	public static final ArmorMaterialObsidian ARMOR_OBSIDIAN = new ArmorMaterialObsidian();
+	public static final ToolMaterialObsidian TOOL_OBSIDIAN = new ToolMaterialObsidian();
 
-	public static final ArmorMaterialLapis armorMaterialLapis = new ArmorMaterialLapis();
-	public static final ToolMaterialLapis toolMaterialLapis = new ToolMaterialLapis();
+	public static final ArmorMaterialLapis ARMOR_LAPIS = new ArmorMaterialLapis();
+	public static final ToolMaterialLapis TOOL_LAPIS = new ToolMaterialLapis();
 
-	public static final ArmorMaterialQuartz armorMaterialQuartz = new ArmorMaterialQuartz();
-	public static final ToolMaterialQuartz toolMaterialQuartz = new ToolMaterialQuartz();
+	public static final ArmorMaterialQuartz ARMOR_QUARTZ = new ArmorMaterialQuartz();
+	public static final ToolMaterialQuartz TOOL_QUARTZ = new ToolMaterialQuartz();
 
 	@Override
 	public void onInitialize()

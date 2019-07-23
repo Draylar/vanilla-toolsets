@@ -8,8 +8,8 @@ import net.minecraft.item.ItemGroup;
 
 public class ArmorBase extends ArmorItem
 {
-    public ArmorBase(ArmorMaterial armorMaterial_1, EquipmentSlot equipmentSlot_1)
+    public ArmorBase(ArmorMaterial material, EquipmentSlot slot)
     {
-        super(armorMaterial_1, equipmentSlot_1, new Item.Settings().group(ItemGroup.COMBAT));
+        super(material, slot, new Item.Settings().group(ItemGroup.COMBAT));
     }
 }
