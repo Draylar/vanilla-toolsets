@@ -1,0 +1,18 @@
+modLoader="javafml"
+loaderVersion="[28,)"
+
+[[mods]]
+modId="vanilla-toolsets"
+version="${file.jarVersion}"
+displayName="Vanilla Toolsets"
+authors="Draylar"
+description='''
+Adds extra tools/armor for 1.14.
+'''
+[[dependencies.vanilla-toolsets]]
+    modId="forge"
+    mandatory=true
+    versionRange="[28.1,)"
+    ordering="NONE"
+    side="BOTH"
+

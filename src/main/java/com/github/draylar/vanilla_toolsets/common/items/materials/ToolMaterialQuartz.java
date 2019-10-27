@@ -1,19 +1,19 @@
 package com.github.draylar.vanilla_toolsets.common.items.materials;
 
+import net.minecraft.item.IItemTier;
 import net.minecraft.item.Items;
-import net.minecraft.item.ToolMaterial;
-import net.minecraft.recipe.Ingredient;
+import net.minecraft.item.crafting.Ingredient;
 
-public class ToolMaterialQuartz implements ToolMaterial
+public class ToolMaterialQuartz implements IItemTier
 {
     @Override
-    public int getDurability()
+    public int getMaxUses()
     {
         return 1028;
     }
 
     @Override
-    public float getMiningSpeed()
+    public float getEfficiency()
     {
         return 6;
     }
@@ -25,7 +25,7 @@ public class ToolMaterialQuartz implements ToolMaterial
     }
 
     @Override
-    public int getMiningLevel()
+    public int getHarvestLevel()
     {
         return 1;
     }
@@ -37,8 +37,8 @@ public class ToolMaterialQuartz implements ToolMaterial
     }
 
     @Override
-    public Ingredient getRepairIngredient()
+    public Ingredient getRepairMaterial()
     {
-        return Ingredient.ofItems(Items.QUARTZ);
+        return Ingredient.fromItems(Items.QUARTZ);
     }
 }
