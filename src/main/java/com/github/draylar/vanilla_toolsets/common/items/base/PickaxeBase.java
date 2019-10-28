@@ -1,14 +1,11 @@
 package com.github.draylar.vanilla_toolsets.common.items.base;
 
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.PickaxeItem;
-import net.minecraft.item.ToolMaterial;
+import net.minecraft.item.*;
 
 public class PickaxeBase extends PickaxeItem
 {
-    public PickaxeBase(ToolMaterial toolMaterial_1)
+    public PickaxeBase(IItemTier toolMaterial_1)
     {
-        super(toolMaterial_1, -1, -2.8f, new Item.Settings().group(ItemGroup.TOOLS));
+        super(toolMaterial_1, -1, -2.8f, new Item.Properties().group(ItemGroup.TOOLS));
     }
 }

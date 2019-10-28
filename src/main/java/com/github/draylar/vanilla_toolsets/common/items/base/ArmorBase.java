@@ -1,15 +1,12 @@
 package com.github.draylar.vanilla_toolsets.common.items.base;
 
-import net.minecraft.entity.EquipmentSlot;
-import net.minecraft.item.ArmorItem;
-import net.minecraft.item.ArmorMaterial;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
+import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.item.*;
 
 public class ArmorBase extends ArmorItem
 {
-    public ArmorBase(ArmorMaterial material, EquipmentSlot slot)
+    public ArmorBase(IArmorMaterial material, EquipmentSlotType slot)
     {
-        super(material, slot, new Item.Settings().group(ItemGroup.COMBAT));
+        super(material, slot, new Item.Properties().group(ItemGroup.COMBAT));
     }
 }

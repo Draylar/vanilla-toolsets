@@ -1,14 +1,79 @@
-plugins {
-	id 'fabric-loom' version '0.2.4-SNAPSHOT'
+buildscript {
+	repositories {
+		maven { url = 'https://files.minecraftforge.net/maven' }
+		jcenter()
+		mavenCentral()
+	}
+	dependencies {
+		classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '3.+', changing: true
+	}
 }
+
+apply plugin: 'net.minecraftforge.gradle'
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 archivesBaseName = "vanilla-toolsets"
 version = "1.2.0"
+group = "com.github.draylar.vanilla_toolsets"
+
+sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8'
 
 minecraft {
+	mappings channel: 'stable', version: "53-1.14.2"
+
+	runs {
+		client {
+			workingDirectory project.file('run')
+
+			// Recommended logging data for a userdev environment
+			property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
+
+			// Recommended logging level for the console
+			property 'forge.logging.console.level', 'debug'
+
+			mods {
+				"vanilla-toolsets" {
+					source sourceSets.main
+				}
+			}
+		}
+
+		server {
+			workingDirectory project.file('run')
+
+			// Recommended logging data for a userdev environment
+			property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
+
+			// Recommended logging level for the console
+			property 'forge.logging.console.level', 'debug'
+
+			mods {
+				"vanilla-toolsets" {
+					source sourceSets.main
+				}
+			}
+		}
+
+		data {
+			workingDirectory project.file('run')
+
+			// Recommended logging data for a userdev environment
+			property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
+
+			// Recommended logging level for the console
+			property 'forge.logging.console.level', 'debug'
+
+			args '--mod', 'vanilla-toolsets', '--all', '--output', file('src/generated/resources/')
+
+			mods {
+				"vanilla-toolsets" {
+					source sourceSets.main
+				}
+			}
+		}
+	}
 }
 
 repositories {
@@ -16,15 +81,9 @@ repositories {
 }
 
 dependencies {
-	minecraft "com.mojang:minecraft:1.14.4"
-	mappings "net.fabricmc:yarn:1.14.4+build.2"
-	modCompile "net.fabricmc:fabric-loader:0.4.8+build.157"
-	modCompile "net.fabricmc.fabric-api:fabric-api:0.3.0+build.200"
+	minecraft "net.minecraftforge:forge:1.14.4-28.1.70"
 }
 
-// Loom will automatically attach sourcesJar to a RemapSourcesJar task and to the "build" task
-// if it is present.
-// If you remove this task, sources will not be generated.
 task sourcesJar(type: Jar, dependsOn: classes) {
 	classifier = 'sources'
 	from sourceSets.main.allSource

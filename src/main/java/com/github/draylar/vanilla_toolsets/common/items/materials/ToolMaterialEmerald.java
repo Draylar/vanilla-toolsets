@@ -1,19 +1,19 @@
 package com.github.draylar.vanilla_toolsets.common.items.materials;
 
+import net.minecraft.item.IItemTier;
 import net.minecraft.item.Items;
-import net.minecraft.item.ToolMaterial;
-import net.minecraft.recipe.Ingredient;
+import net.minecraft.item.crafting.Ingredient;
 
-public class ToolMaterialEmerald implements ToolMaterial
+public class ToolMaterialEmerald implements IItemTier
 {
     @Override
-    public int getDurability()
+    public int getMaxUses()
     {
         return 1028;
     }
 
     @Override
-    public float getMiningSpeed()
+    public float getEfficiency()
     {
         return 7;
     }
@@ -25,7 +25,7 @@ public class ToolMaterialEmerald implements ToolMaterial
     }
 
     @Override
-    public int getMiningLevel()
+    public int getHarvestLevel()
     {
         return 3;
     }
@@ -37,8 +37,8 @@ public class ToolMaterialEmerald implements ToolMaterial
     }
 
     @Override
-    public Ingredient getRepairIngredient()
+    public Ingredient getRepairMaterial()
     {
-        return Ingredient.ofItems(Items.EMERALD);
+        return Ingredient.fromItems(Items.EMERALD);
     }
 }
