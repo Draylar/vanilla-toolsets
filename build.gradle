@@ -34,7 +34,7 @@ minecraft {
 			property 'forge.logging.console.level', 'debug'
 
 			mods {
-				vanilla-toolsets {
+				"vanilla-toolsets" {
 					source sourceSets.main
 				}
 			}
@@ -50,7 +50,7 @@ minecraft {
 			property 'forge.logging.console.level', 'debug'
 
 			mods {
-				vanilla-toolsets {
+				"vanilla-toolsets" {
 					source sourceSets.main
 				}
 			}
@@ -68,7 +68,7 @@ minecraft {
 			args '--mod', 'vanilla-toolsets', '--all', '--output', file('src/generated/resources/')
 
 			mods {
-				vanilla-toolsets {
+				"vanilla-toolsets" {
 					source sourceSets.main
 				}
 			}

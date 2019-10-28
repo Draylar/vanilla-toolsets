@@ -42,18 +42,7 @@ public class VanillaToolsets
 	public VanillaToolsets() {
 		instance = this;
 
-		FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
-		FMLJavaModLoadingContext.get().getModEventBus().addListener(this::clientRegistries);
-
 		MinecraftForge.EVENT_BUS.register(this);
-	}
-
-	private void setup(final FMLCommonSetupEvent event) {
-		LOGGER.info("Setup method registered.");
-	}
-
-	private void clientRegistries(final FMLClientSetupEvent event) {
-		LOGGER.info("clientRegistries method registered.");
 	}
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
