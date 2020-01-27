@@ -1,44 +1,38 @@
-package com.github.draylar.vanilla_toolsets.common.items.materials;
+package com.github.draylar.vanilla_toolsets.material;
 
 import net.minecraft.block.Blocks;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
-public class ToolMaterialObsidian implements ToolMaterial
-{
+public class ToolMaterialObsidian implements ToolMaterial {
+
     @Override
-    public int getDurability()
-    {
+    public int getDurability() {
         return 2048;
     }
 
     @Override
-    public float getMiningSpeed()
-    {
+    public float getMiningSpeed() {
         return 5;
     }
 
     @Override
-    public float getAttackDamage()
-    {
+    public float getAttackDamage() {
         return 4.5f;
     }
 
     @Override
-    public int getMiningLevel()
-    {
+    public int getMiningLevel() {
         return 3;
     }
 
     @Override
-    public int getEnchantability()
-    {
+    public int getEnchantability() {
         return 5;
     }
 
     @Override
-    public Ingredient getRepairIngredient()
-    {
+    public Ingredient getRepairIngredient() {
         return Ingredient.ofItems(Blocks.OBSIDIAN);
     }
 }

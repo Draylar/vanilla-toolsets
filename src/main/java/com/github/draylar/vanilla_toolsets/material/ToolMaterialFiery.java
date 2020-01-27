@@ -1,44 +1,38 @@
-package com.github.draylar.vanilla_toolsets.common.items.materials;
+package com.github.draylar.vanilla_toolsets.material;
 
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
-public class ToolMaterialFiery implements ToolMaterial
-{
+public class ToolMaterialFiery implements ToolMaterial {
+
     @Override
-    public int getDurability()
-    {
+    public int getDurability() {
         return 325;
     }
 
     @Override
-    public float getMiningSpeed()
-    {
+    public float getMiningSpeed() {
         return 5.5F;
     }
 
     @Override
-    public float getAttackDamage()
-    {
+    public float getAttackDamage() {
         return 3;
     }
 
     @Override
-    public int getMiningLevel()
-    {
+    public int getMiningLevel() {
         return 1;
     }
 
     @Override
-    public int getEnchantability()
-    {
+    public int getEnchantability() {
         return 10;
     }
 
     @Override
-    public Ingredient getRepairIngredient()
-    {
+    public Ingredient getRepairIngredient() {
         return Ingredient.ofItems(Items.FIRE_CHARGE);
     }
 }
