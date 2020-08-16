@@ -1,38 +1,38 @@
-package com.github.draylar.vanilla_toolsets.material;
+package draylar.vt.material;
 
-import net.minecraft.item.Items;
+import net.minecraft.block.Blocks;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
-public class ToolMaterialFiery implements ToolMaterial {
+public class ToolMaterialLapis implements ToolMaterial {
 
     @Override
     public int getDurability() {
-        return 325;
+        return 220;
     }
 
     @Override
-    public float getMiningSpeed() {
-        return 5.5F;
+    public float getMiningSpeedMultiplier() {
+        return 6;
     }
 
     @Override
     public float getAttackDamage() {
-        return 3;
+        return 3.5f;
     }
 
     @Override
     public int getMiningLevel() {
-        return 1;
+        return 2;
     }
 
     @Override
     public int getEnchantability() {
-        return 10;
+        return 30;
     }
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(Items.FIRE_CHARGE);
+        return Ingredient.ofItems(Blocks.LAPIS_BLOCK);
     }
 }

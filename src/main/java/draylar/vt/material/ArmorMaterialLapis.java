@@ -1,20 +1,20 @@
-package com.github.draylar.vanilla_toolsets.material;
+package draylar.vt.material;
 
+import net.minecraft.block.Blocks;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorMaterial;
-import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 
-public class ArmorMaterialEmerald implements ArmorMaterial {
+public class ArmorMaterialLapis implements ArmorMaterial {
 
     private static final int[] BASE_DURABILITY = new int[]{13, 15, 16, 11};
-    private static final int[] PROTECTION_AMOUNTS = new int[]{2, 5, 6, 3};
+    private static final int[] PROTECTION_AMOUNTS = new int[]{1, 3, 4, 2};
 
     @Override
     public int getDurability(EquipmentSlot equipmentSlot) {
-        return BASE_DURABILITY[equipmentSlot.getEntitySlotId()] * 25;
+        return BASE_DURABILITY[equipmentSlot.getEntitySlotId()] * 10;
     }
 
     @Override
@@ -24,26 +24,31 @@ public class ArmorMaterialEmerald implements ArmorMaterial {
 
     @Override
     public int getEnchantability() {
-        return 25;
+        return 30;
     }
 
     @Override
     public SoundEvent getEquipSound() {
-        return SoundEvents.ENTITY_VILLAGER_AMBIENT;
+        return SoundEvents.ITEM_ARMOR_EQUIP_GOLD;
     }
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(Items.EMERALD);
+        return Ingredient.ofItems(Blocks.LAPIS_BLOCK);
     }
 
     @Override
     public String getName() {
-        return "emerald";
+        return "lapis";
     }
 
     @Override
     public float getToughness() {
-        return 2;
+        return 0;
+    }
+
+    @Override
+    public float getKnockbackResistance() {
+        return 0;
     }
 }

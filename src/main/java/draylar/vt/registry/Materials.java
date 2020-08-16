@@ -1,6 +1,6 @@
-package com.github.draylar.vanilla_toolsets.registry;
+package draylar.vt.registry;
 
-import com.github.draylar.vanilla_toolsets.material.*;
+import draylar.vt.material.*;
 
 public class Materials {
 

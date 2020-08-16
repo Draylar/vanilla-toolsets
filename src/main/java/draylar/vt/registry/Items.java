@@ -1,7 +1,7 @@
-package com.github.draylar.vanilla_toolsets.registry;
+package draylar.vt.registry;
 
-import com.github.draylar.vanilla_toolsets.VanillaToolsets;
-import com.github.draylar.vanilla_toolsets.item.*;
+import draylar.vt.VanillaToolsets;
+import draylar.vt.item.*;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.util.registry.Registry;
 

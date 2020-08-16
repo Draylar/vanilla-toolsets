@@ -15,7 +15,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.github.draylar.vanilla_toolsets.VanillaToolsets"
+      "draylar.vt.VanillaToolsets"
     ]
   },
   "mixins": [

@@ -1,4 +1,4 @@
-package com.github.draylar.vanilla_toolsets.material;
+package draylar.vt.material;
 
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorMaterial;
@@ -44,6 +44,11 @@ public class ArmorMaterialFiery implements ArmorMaterial {
 
     @Override
     public float getToughness() {
+        return 0;
+    }
+
+    @Override
+    public float getKnockbackResistance() {
         return 0;
     }
 }

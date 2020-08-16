@@ -1,38 +1,38 @@
-package com.github.draylar.vanilla_toolsets.material;
+package draylar.vt.material;
 
-import net.minecraft.block.Blocks;
+import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
-public class ToolMaterialLapis implements ToolMaterial {
+public class ToolMaterialEmerald implements ToolMaterial {
 
     @Override
     public int getDurability() {
-        return 220;
+        return 1028;
     }
 
     @Override
-    public float getMiningSpeed() {
-        return 6;
+    public float getMiningSpeedMultiplier() {
+        return 7;
     }
 
     @Override
     public float getAttackDamage() {
-        return 3.5f;
+        return 4;
     }
 
     @Override
     public int getMiningLevel() {
-        return 2;
+        return 3;
     }
 
     @Override
     public int getEnchantability() {
-        return 30;
+        return 15;
     }
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(Blocks.LAPIS_BLOCK);
+        return Ingredient.ofItems(Items.EMERALD);
     }
 }

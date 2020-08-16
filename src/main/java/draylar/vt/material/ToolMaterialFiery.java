@@ -1,38 +1,38 @@
-package com.github.draylar.vanilla_toolsets.material;
+package draylar.vt.material;
 
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
-public class ToolMaterialEmerald implements ToolMaterial {
+public class ToolMaterialFiery implements ToolMaterial {
 
     @Override
     public int getDurability() {
-        return 1028;
+        return 325;
     }
 
     @Override
-    public float getMiningSpeed() {
-        return 7;
+    public float getMiningSpeedMultiplier() {
+        return 5.5F;
     }
 
     @Override
     public float getAttackDamage() {
-        return 4;
-    }
-
-    @Override
-    public int getMiningLevel() {
         return 3;
     }
 
     @Override
+    public int getMiningLevel() {
+        return 1;
+    }
+
+    @Override
     public int getEnchantability() {
-        return 15;
+        return 10;
     }
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(Items.EMERALD);
+        return Ingredient.ofItems(Items.FIRE_CHARGE);
     }
 }

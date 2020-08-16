@@ -1,7 +1,7 @@
-package com.github.draylar.vanilla_toolsets;
+package draylar.vt;
 
-import com.github.draylar.vanilla_toolsets.registry.Materials;
-import com.github.draylar.vanilla_toolsets.registry.Items;
+import draylar.vt.registry.Materials;
+import draylar.vt.registry.Items;
 import net.fabricmc.api.ModInitializer;
 
 public class VanillaToolsets implements ModInitializer {

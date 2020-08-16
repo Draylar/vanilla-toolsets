@@ -1,20 +1,20 @@
-package com.github.draylar.vanilla_toolsets.material;
+package draylar.vt.material;
 
+import net.minecraft.block.Blocks;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorMaterial;
-import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 
-public class ArmorMaterialQuartz implements ArmorMaterial {
+public class ArmorMaterialObsidian implements ArmorMaterial {
 
     private static final int[] BASE_DURABILITY = new int[]{13, 15, 16, 11};
-    private static final int[] PROTECTION_AMOUNTS = new int[]{2, 3, 4, 3};
+    private static final int[] PROTECTION_AMOUNTS = new int[]{3, 5, 5, 3};
 
     @Override
     public int getDurability(EquipmentSlot equipmentSlot) {
-        return BASE_DURABILITY[equipmentSlot.getEntitySlotId()] * 20;
+        return BASE_DURABILITY[equipmentSlot.getEntitySlotId()] * 50;
     }
 
     @Override
@@ -24,26 +24,31 @@ public class ArmorMaterialQuartz implements ArmorMaterial {
 
     @Override
     public int getEnchantability() {
-        return 10;
+        return 5;
     }
 
     @Override
     public SoundEvent getEquipSound() {
-        return SoundEvents.ITEM_ARMOR_EQUIP_IRON;
+        return SoundEvents.BLOCK_METAL_BREAK;
     }
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(Items.QUARTZ);
+        return Ingredient.ofItems(Blocks.OBSIDIAN);
     }
 
     @Override
     public String getName() {
-        return "quartz";
+        return "obsidian";
     }
 
     @Override
     public float getToughness() {
-        return 0;
+        return 3;
+    }
+
+    @Override
+    public float getKnockbackResistance() {
+        return 1;
     }
 }
